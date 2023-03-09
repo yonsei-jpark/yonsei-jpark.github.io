@@ -1,0 +1,37 @@
+# jemdoc: publications.html  
+
+== Publications
+Here is a full list of my publications:
+\n
+
+== Journals
+. A. Bedewy, Y. Sun, Rahul Singh, N. Shroff, "Low-Power Status Updates via Sleep-Wake Scheduling," IEEE/ACM Transactions on  Networking, 2021. (Accepted)
+. R. Singh and P.R. Kumar, "Adaptive CSMA for Decentralized Scheduling of Multi-Hop Networks with End-to-End Deadline Constraints," IEEE/ACM Transactions on Networking, 2021. (Accepted)
+. R. Singh, W. Ren, F. Liu, D. Xuan, Z. Lin, N. Shroff, "A Blueprint for Effective Pandemic Mitigation," ITU Journal on Future and Evolving Technologies, Volume 1 (2020), Issue 1, 15 December 2020.
+. R. Singh, P.R. Kumar, and L. Xie, "Decentralized Control via Dynamic Stochastic Prices: The Independent System Operator Problem,"  IEEE Transactions on Automatic Control, vol. 63, issue 10,  pp. 3206-3220, October 2018.
+. R. Singh and P.R. Kumar, "Throughput optimal decentralized scheduling of multi-hop networks with end-to-end deadline constraints: Unreliable links,"  IEEE Transactions on Automatic Control,  vol. 64, no. 1, January 2019.
+. I. Kadota, A. Sinha, E. Uysal-Biyikoglu, R. Singh, and E. Modiano, "Scheduling policies for minimizing age of information in broadcast wireless networks," IEEE/ACM Transactions on Networking, vol. 26, no. 6, December 2018.
+. X. Guo, R. Singh, P.R. Kumar, and Z. Niu, "A risk-sensitive approach for packet inter-delivery time optimization in networked cyber-physical systems," IEEE/ACM Transactions on Networking,  vol. 26, issue 4, pp. 1976-1989, August 2018.
+. G. Nigam, R. Singh, A.K. Chaturvedi, "Finite duration root Nyquist pulses with maximum in-band fractional energy," IEEE Communications Letters,  vol. 14, issue 9, pp. 797-799,  September 2010.
+
+== Conferences
+
+   . Akshay Mete, Rahul Singh and P. R. Kumar, "Reward Biased Maximum Likelihood Estimation for Reinforcement Learning",  Learning for Dynamics & Control, 2021 (Accepted).
+   . A.M. Bedewy, Yin Sun, Rahul Singh, and Ness B. Shroff, "Optimizing Information Freshness using Low-Power Status Updates via Sleep-Wake Scheduling", ACM Mobihoc, 2020. (acceptance rate = 15%)
+    . Rahul Singh, Gopal Krishna Kamath and P. R. Kumar, "Optimal Information Updating based on Value of Information," 57th Annual Allerton Conference on Communication, Control, and Computing (Allerton), 2019.
+    . R. Singh, X. Guo and E. Modiano, "Risk-sensitive optimal control of queues," in Proceedings of 2017 IEEE CDC, Melbourne, Australia, December 12-15, 2017.
+    . I. Kadota, E. Uysal-Biyikoglu, R. Singh, and E. Modiano, "Minimizing the Age of Information in Broadcast Wireless Networks," 54th Annual Allerton Conference on Communication, Control, and Computing (Allerton), Sept 27-30, 2016.
+    . X. Guo, R. Singh, T. Zhao, and Z. Niu, "An index based task assignment policy for achieving optimal power-delay trade-o in edge cloud systems," in Proceedings of 2016 IEEE International Conference on Communications (ICC), Kuala Lumpur, Malaysia, 23-27 May 2016.
+    . R. Singh and A. Stolyar, "Maxweight scheduling: "smoothness" of the service process," in Proceedings of 2016 IEEE INFOCOM, San Francisco, USA, 10-15 April 2016.
+    . R. Singh and A. Stolyar, "Maxweight scheduling: Asymptotic behavior of unscaled queue-differentials in heavy traffic," in Proceedings of 2015 ACM SIGMETRICS, Portland, Oregon, USA, June 15-19, 2015.
+    . R. Singh and P.R. Kumar, "Optimizing quality of experience of dynamic video streaming over fading wireless networks," in Proceedings of 2015 IEEE CDC, Osaka, Japan, December 15-18, 2015. 
+    . R. Singh and P.R. Kumar, "Decentralized throughput maximizing policies for deadline-constrained wireless networks," in Proceedings of 2015 IEEE CDC, Osaka, Japan, December 15-18, 2015.
+    . R. Singh, K. Ma, A. A. Thatte, P.R. Kumar, and L. Xie, "A theory for the economic operation of a smart grid with stochastic renewables, demand response and storage," in Proceedings of 2015 IEEE CDC, Osaka, Japan, December 15-18, 2015.
+    . X. Guo, R. Singh, P.R. Kumar, and Z. Niu, "A high reliability asymptotic approach for packet inter-delivery time optimization in cyber-physical systems," in Proceedings of the 16th ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc), Hangzhou, China, June 22 - 25, 2015.
+    . X. Guo, R. Singh, P. R. Kumar, and Z. Niu, "Optimal energy-efficient regular delivery of packets in cyber-physical systems," in Proceedings of 2015 IEEE International Conference on Communications (ICC), London, UK, 8-12 June, 2015.
+    . R. Singh, X. Guo, and P. R. Kumar, "Index policies for optimal mean-variance trade-off of inter-delivery times in real-time sensor networks," in Proceedings of 2015 IEEE Conference on Computer Communications (INFOCOM), Hong Kong, April 26-May 1, 2015.
+    . R. Singh, I.H. Hou, and P.R. Kumar, "Fluctuation analysis of debt based policies for wireless networks with hard delay constraints," in Proceedings of 2014 IEEE Conference on Computer Communications (INFOCOM), Toronto, Canada, April 27- May 2, 2014.
+    . R. Singh, I.H. Hou and P.R. Kumar, "Pathwise performance of debt based policies for wireless networks with hard delay constraints," in Proceedings of 2013 IEEE CDC, Florence, Italy, December 10-13, 2013.
+    . I. Hou, R. Singh, "Scheduling of access points for multiple live video streams," in Proceedings of 2013 ACM MobiHoc, Bangalore, India, July 29 - August 01, 2013.
+    . P. T. Akhil, R. Singh and R. Sundaresan, "A Polymatroid Approach to Separable Convex Optimization with Linear Ascending Constraints," in Proceedings of 2014 IEEE National Conference on Communications (NCC), 28 Feb.-2 March 2014, Kanpur, India.
+    . R. Singh and V. Gupta, "On LQR control with asynchronous clocks," in Proceedings of IEEE Conference on Decision and Control and European Control Conference, December 12-15, 2011.
