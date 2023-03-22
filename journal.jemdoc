@@ -1,0 +1,56 @@
+# jemdoc: menu{MENU}{journal.html}, nofooter
+== Journal Papers 
+
+== Preprint
+
+. D. Han, J. Park, Y. Lee, H. V. Poor, and N. Lee, "Block Orthogonal Sparse Superposition Codes for Ultra-Reliable Low-Latency Communications," submitted to /IEEE Transactions on Communications/. [https://arxiv.org/abs/2208.06835 \[Arxiv\]]
+. D. Han, J. Park, and N. Lee, "FDD Massive MIMO without CSI Feedback," submitted to /IEEE Transactions on Wireless Communications/. [https://arxiv.org/abs/2302.04398 \[Arxiv\]]
+. G. Choi, J. Park, N. Shlezinger, Y. C. Eldar, and N. Lee, "Split-KalmanNet: A Robust Model-based Deep Learning Approach for State Estimation," submitted to /IEEE Transactions on Vehicular Technology/ [https://arxiv.org/abs/2210.09636 \[Arxiv\]].
+. M. Oh, J. Park, and J. Choi, "Joint Optimization for Secure and Reliable Communications in Finite Blocklength Regime," submitted to /IEEE Transactions on Wireless Communications/. [https://arxiv.org/abs/2208.01870 \[Arxiv\]]
+
+
+== 2023
+
+. S. Park,  J. Choi, J. Park, W. Shin, and B. Clerckx, "Rate-Splitting Precoding for Quantized MU-MIMO: Spectral Efficiency Maximization," accepted to /IEEE Transactions on Wireless Communications/, March 2023.  
+. E. Choi, M. Oh, J. Choi, J. Park, N. Lee and N. Al-Dhahir, "[https://ieeexplore.ieee.org/document/9973364 Joint Precoding and Artificial Noise Design for MU-MIMO Wiretap Channels]," in /IEEE Transactions on Communications/, vol. 71, no. 3, pp. 1564-1578, March 2023.
+. S. Kim, J. Choi and J. Park, "[https://ieeexplore.ieee.org/document/9961857 Downlink NOMA for Short-Packet Internet-of-Things Communications with Low-Resolution ADCs]," in /IEEE Internet of Things Journal/. 
+. D. Kim, J. Choi, J. Park and D. K. Kim, "[https://ieeexplore.ieee.org/document/9946306 Max–Min Fairness Beamforming With Rate-Splitting Multiple Access: Optimization Without a Toolbox]," in /IEEE Wireless Communications Letters/, vol. 12, no. 2, pp. 232-236, Feb. 2023.
+. J. Park, J. Choi, N. Lee, W. Shin and H. V. Poor, "[https://ieeexplore.ieee.org/document/9894281 Rate-Splitting Multiple Access for Downlink MIMO: A Generalized Power Iteration Approach]," in /IEEE Transactions on Wireless Communications/, vol. 22, no. 3, pp. 1588-1603, March 2023.
+. J. Park, J. Choi and N. Lee, "[https://ieeexplore.ieee.org/document/9861782 A Tractable Approach to Coverage Analysis in Downlink Satellite Networks]," in /IEEE Transactions on Wireless Communications/, vol. 22, no. 2, pp. 793-807, Feb. 2023.
+
+== 2022
+
+. K. Lee, J. Choi, D. K. Kim and J. Park, "[https://ieeexplore.ieee.org/document/9819913 Secure Transmission for Hierarchical Information Accessibility in Downlink MU-MIMO]," in /IEEE Transactions on Communications/, vol. 70, no. 9, pp. 6181-6195, Sept. 2022. 
+. J. Choi, J. Park and N. Lee, "[https://ieeexplore.ieee.org/document/9722716 Energy Efficiency Maximization Precoding for Quantized Massive MIMO Systems]," in /IEEE Transactions on Wireless Communications/, vol. 21, no. 9, pp. 6803-6817, Sept. 2022.
+. M. Kim, J. Park and J. Lee, "[https://ieeexplore.ieee.org/document/9670457 Precoding Design for Multi-User MISO Systems With Delay-Constrained and -Tolerant Users]," in /IEEE Transactions on Wireless Communications/, vol. 21, no. 7, pp. 5090-5105, July 2022.
+. D. Han, J. Park, S. -H. Park and N. Lee, "[https://ieeexplore.ieee.org/document/9591329 Sparse Joint Transmission for Cloud Radio Access Networks With Limited Fronthaul Capacity]," in /IEEE Transactions on Wireless Communications/, vol. 21, no. 5, pp. 3395-3408, May 2022.
+
+== 2021
+
+. J. Park and S. Baek, "[https://ieeexplore.ieee.org/document/9459019 Two-Stage Thompson Sampling for Outer-Loop Link Adaptation]," in /IEEE Wireless Communications Letters/, vol. 10, no. 9, pp. 2004-2008, Sept. 2021.
+. J. Choi and J. Park, "[https://ieeexplore.ieee.org/document/9404301 MIMO Design for Internet of Things: Joint Optimization of Spectral Efficiency and Error Probability in Finite Blocklength Regime]," in /IEEE Internet of Things Journal/, vol. 8, no. 20, pp. 15512-15521, 15 Oct.15, 2021.
+. H. Do, S. Cho, J. Park, H. -J. Song, N. Lee and A. Lozano, "[https://ieeexplore.ieee.org/document/9422343 Terahertz Line-of-Sight MIMO Communication: Theory and Practical Challenges]," in /IEEE Communications Magazine/, vol. 59, no. 3, pp. 104-109, March 2021. 
+. J. Choi and J. Park, "[https://ieeexplore.ieee.org/document/9312431 Sum Secrecy Spectral Efficiency Maximization in Downlink MU-MIMO: Colluding Eavesdroppers]," in /IEEE Transactions on Vehicular Technology/, vol. 70, no. 1, pp. 1051-1056, Jan. 2021.
+. J. Choi and J. Park, "[https://ieeexplore.ieee.org/document/9153067 SecureLinQ: Joint Precoding and Scheduling for Secure Device-to-Device Networks]," in /IEEE Wireless Communications Letters/, vol. 9, no. 12, pp. 2078-2082, Dec. 2020. 
+
+
+== Before 2019
+
+. J. Park and R. W. Heath, "[https://ieeexplore.ieee.org/document/8457255 Analysis of Blockage Sensing by Radars in Random Cellular Networks]," in /IEEE Signal Processing Letters/, vol. 25, no. 11, pp. 1620-1624, Nov. 2018. 
+. J. Park, N. Lee and R. W. Heath, "[https://ieeexplore.ieee.org/document/8326719 Feedback Design for Multi-Antenna K\-Tier Heterogeneous Downlink Cellular Networks]," in /IEEE Transactions on Wireless Communications/, vol. 17, no. 6, pp. 3861-3876, June 2018.
+. J. Park, J. G. Andrews and R. W. Heath, "[https://ieeexplore.ieee.org/document/8315133 Inter-Operator Base Station Coordination in Spectrum-Shared Millimeter Wave Cellular Networks]," in /IEEE Transactions on Cognitive Communications and Networking/, vol. 4, no. 3, pp. 513-528, Sept. 2018.
+. J. Park, S. Park, A. Yazdan and R. W. Heath, "[https://ieeexplore.ieee.org/document/7961176 Optimization of Mixed-ADC Multi-Antenna Systems for Cloud-RAN Deployments]," in /IEEE Transactions on Communications/, vol. 65, no. 9, pp. 3962-3975, Sept. 2017.
+. S. Park, J. Park, A. Yazdan and R. W. Heath, "[https://ieeexplore.ieee.org/document/7919262 Exploiting Spatial Channel Covariance for Hybrid Precoding in Massive MIMO Systems]," in /IEEE Transactions on Signal Processing/, vol. 65, no. 14, pp. 3818-3832, 15 July15, 2017.
+. A. Yazdan, J. Park, S. Park, T. A. Khan and R. W. Heath, "[https://ieeexplore.ieee.org/document/7942225 Energy-Efficient Massive MIMO: Wireless-Powered Communication, Multiuser MIMO with Hybrid Precoding, and Cloud Radio Access Network with Variable-Resolution ADCs]," in /IEEE Microwave Magazine/, vol. 18, no. 5, pp. 18-30, July-Aug. 2017
+. S. Park, J. Park, A. Yazdan and R. W. Heath, "[https://ieeexplore.ieee.org/document/7784753 Optimal User Loading in Massive MIMO Systems With Regularized Zero Forcing Precoding]," in /IEEE Wireless Communications Letters/, vol. 6, no. 1, pp. 118-121, Feb. 2017.
+. J. Choi, J. Park and B. L. Evans, "[https://ieeexplore.ieee.org/document/7745881 Spectral Efficiency Bounds for Interference-Limited SVD-MIMO Cellular Communication Systems]," in /IEEE Wireless Communications Letters/, vol. 6, no. 1, pp. 46-49, Feb. 2017.
+. J. Park and R. W. Heath, "[https://ieeexplore.ieee.org/document/7491366 Low Complexity Antenna Selection for Low Target Rate Users in Dense Cloud Radio Access Networks]," in /IEEE Transactions on Wireless Communications/, vol. 15, no. 9, pp. 6022-6032, Sept. 2016.
+. J. Park, N. Lee, J. G. Andrews and R. W. Heath, "[https://ieeexplore.ieee.org/document/7470522 On the Optimal Feedback Rate in Interference-Limited Multi-Antenna Cellular Systems]," in /IEEE Transactions on Wireless Communications/, vol. 15, no. 8, pp. 5748-5762, Aug. 2016.
+. J. Park and R. W. Heath, "[https://ieeexplore.ieee.org/document/7384442 Multiple-Antenna Transmission With Limited Feedback in Device-to-Device Networks]," in /IEEE Wireless Communications Letters/, vol. 5, no. 2, pp. 200-203, April 2016.
+. M. S. Sim, J. Park, C. -B. Chae and R. W. Heath, "
+[https://ieeexplore.ieee.org/document/7434506 Compressed channel feedback for correlated massive MIMO systems]," in /Journal of Communications and Networks/, vol. 18, no. 1, pp. 95-104, Feb. 2016.
+. J. Park, N. Lee and R. W. Heath, "
+[https://ieeexplore.ieee.org/document/7308016 Cooperative Base Station Coloring for Pair-Wise Multi-Cell Coordination]," in /IEEE Transactions on Communications/, vol. 64, no. 1, pp. 402-415, Jan. 2016.
+
+
+

@@ -1,0 +1,39 @@
+# jemdoc: menu{MENU}{conference.html}, nofooter
+== Conference Papers 
+
+== Preprint
+
+
+== 2023
+.  J. Choi, J. Park, J. Lee, and N. Lee, "Coverage Analysis for Downlink Satellite Networks: Effect of Shadowing," 2023 /IEEE International Conference on Communications (ICC)/.
+
+== 2022
+
+. M. Oh, J. Park and J. Choi, "[https://ieeexplore.ieee.org/document/9838578 Secure Internet-of-Things Communications: Joint Precoding and Power Control]," 2022 /IEEE International Conference on Communications (ICC)/.
+
+
+== 2021
+. K. Lee, J. Choi, D. Kim and J. Park, "[https://ieeexplore.ieee.org/document/9685873 Hierarchical Information Accessibility in Downlink MIMO Systems]," 2021 /IEEE Global Communications Conference (GLOBECOM)/. [https://www.dropbox.com/s/dnie86o6uhb9mvx/2021%20globecom%20v2.pdf?dl=0 \[Slide\]] 
+. J. Park, J. Choi, W. Shin and N. Lee, "[https://ieeexplore.ieee.org/document/9685445 Block Orthogonal Sparse Superposition Codes]," 2021 /IEEE Global Communications Conference (GLOBECOM)/. [https://www.dropbox.com/s/7biud1wedu3q9rm/GC2021%20%28BOSS%29.pdf?dl=0 \[Slide\]]
+. M. Kim, J. Park and J. Lee, "[https://ieeexplore.ieee.org/abstract/document/9500360 MU-MIMO Precoding Design in the Presence of Delay-Constrained Users]," 2021 /IEEE International Conference on Communications (ICC)/.
+. J. Park, J. Choi, N. Lee, W. Shin and H. V. Poor, "[https://ieeexplore.ieee.org/document/9420033 Sum Spectral Efficiency Optimization for Rate Splitting in Downlink MU-MISO: A Generalized Power Iteration Approach]," 2021 /IEEE Wireless Communications and Networking Conference Workshops (WCNCW)/. [https://www.dropbox.com/s/dle42mk7venw28x/%5BWCNC2021%5D%20slide_v3.pdf?dl=0 \[Slide\]]
+. J. Park and S. Baek, "[https://ieeexplore.ieee.org/document/9348641 Beam Alignment for Millimeter Wave High Speed Train Communication Systems: A Bayesian Bandit Learning Approach]," 2020 /IEEE Vehicular Technology Conference (VTC-Fall)/. [https://www.dropbox.com/s/59ez9rahd82p5ts/VTC2020.pdf?dl=0 \[Slide\]]
+
+
+
+== Before 2019
+
+. J. Park, N. Lee and R. W. Heath, "[https://ieeexplore.ieee.org/document/8362870 Multi-cell coordination in K-tier heterogeneous downlink cellular networks: Dynamic clustering and feedback allocation]," 2018 /International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt)/. [https://www.dropbox.com/s/pormft580wx09rr/Wipot2018_HetNet.pdf?dl=0 \[Slide\]]
+. A. H. Jafari, J. Park and R. W. Heath, "[https://ieeexplore.ieee.org/document/7996403 Analysis of interference mitigation in mmWave communications]," 2017 /IEEE International Conference on Communications (ICC)/.
+. J. Park, S. Park, A. Yazdan and R. W. Heath, "[https://ieeexplore.ieee.org/document/7997352 Dynamic bit selection in mixed-ADC cloud-RAN systems]," 2017 /IEEE International Conference on Communications (ICC)/. [https://www.dropbox.com/s/6rrp1a41vom0ieu/ICC_2017_poster_Jeonghun_v2.pdf?dl=0 \[Slide\]]
+. S. Park, J. Park, R. W. Heath and A. Yazdan, "[https://ieeexplore.ieee.org/document/7952797 Hybrid precoding using long-term channel statistics for massive MIMO systems]," 2017 /IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)/ 
+. J. Park and R. W. Heath, "[https://ieeexplore.ieee.org/document/7848830 Adaptive Feedback Partitions in Dynamic Zero-Forcing Beamforming Based on Stochastic Geometry]," 2016 /IEEE Globecom Workshops (GC Wkshps)/. [https://www.dropbox.com/s/e7dtd7ocjbg6kbb/GC_2016_poster_Jeonghun_v2.pdf?dl=0 \[Slide\]]
+. J. Park, J. G. Andrews, R. W. Heath and N. Lee, "[https://ieeexplore.ieee.org/document/7541569 A lower bound on the optimum feedback rate for downlink multi-antenna cellular networks]," 2016 /IEEE International Symposium on Information Theory (ISIT)/. [https://www.dropbox.com/s/amrm0m1isev7z8j/isit2016_jeonghun_v3.pdf?dl=0 \[Slide\]]
+. J. Park and R. W. Heath, "[https://ieeexplore.ieee.org/document/7417757 Threshold-Based Antenna Selection Algorithm for Dense Cloud Radio Access Networks]," 2015 /IEEE Global Communications Conference (GLOBECOM)/. [https://www.dropbox.com/s/is8rj2d1hcrc0qg/Globecom2015_presentation_v3.pdf?dl=0 \[Slide\]]
+. J. Park, N. Lee and R. W. Heath, "[https://ieeexplore.ieee.org/document/7362823 Base station cluster patterns for semi-static multi-cell cooperation in irregular network topologies]," 2015 /European Signal Processing Conference (EUSIPCO)/. [https://www.dropbox.com/s/5ilijl3103tg6b3/EUSIPCO2015_presentation_ver2.pdf?dl=0 \[Slide\]]
+. J. Park, N. Lee and R. W. Heath, "[https://ieeexplore.ieee.org/document/7248946 Performance analysis of pair-wise dynamic multi-user joint transmission]," 2015 /IEEE International Conference on Communications (ICC)/. [https://www.dropbox.com/s/i5eefndha8a97tt/ICC_presentation_v2.pdf?dl=0 \[Slide\]]
+. J. Park, C. -B. Chae and D. Kim, "[https://ieeexplore.ieee.org/document/6649255 A performance trade-off in wideband cognitive radio for flexible wireless systems]," 2013 /IEEE International Conference on Communications Workshops (ICC)/. 
+. J. Park, S. Hwang, D. Kim and J. Yang, "[https://ieeexplore.ieee.org/document/6240176 Utilization of Partial Common Information in Distributed Compressive Sensing]," 2012 /IEEE Vehicular Technology Conference (VTC-Spring)/.
+
+
+
