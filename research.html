@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
+<title>Research </title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href="journal.html">Journal&nbsp;Papers</a></div>
+<div class="menu-item"><a href="conference.html">Conference&nbsp;Papers</a></div>
+<div class="menu-item"><a href="talks.html">Talks</a></div>
+<div class="menu-item"><a href="group.html">Group</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research </h1>
+</div>
+<table class="imgtable"><tr><td>
+<img src="css/photos/vision.png" alt="alt text" width="800px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>We are interested in exploring a diverse range of topics related to wireless communications, signal processing, sensing, and machine learning, with a particular focus on both theoretical foundations and practical implementations. </p>
+</li>
+</ul>
+<ul>
+<li><p>Our primary objective is to develop effective algorithms and analyze wireless systems to enhance their efficiency. Overall, my research aims to push the boundaries of wireless technology and provide practical solutions that improve the performance and efficiency of wireless communication systems in the real world.</p>
+</li>
+</ul>
+<ul>
+<li><p>Currently, my research interests include investigating new MIMO techniques for 6G and beyond, conducting analysis on dense satellite networks, and exploring the applications of machine learning to wireless communications, as well as the integration of wireless technologies into machine learning. For more details, please see below. </p>
+</li>
+</ul>
+<h2>Towards xMIMO</h2>
+<table class="imgtable"><tr><td>
+<img src="css/photos/nepv.png" alt="alt text" width="440px" />&nbsp;</td>
+<td align="left"><ul>
+<li><p>In 4G, the design of MIMO relies on convex relaxation techniques, such as WMMSE or SDR. The optimization problem is initially non-convex, yet we iteratively relax the problem to obtain a convexified solution. However, this approach has a significant drawback in that it leads to very high computational complexity, which is a major obstacle for implementing massive MIMO systems.</p>
+</li>
+<li><p>In 5G, massive MIMO has become a popular trend, characterized by the use of numerous antennas and a relatively smaller number of users. In such a scenario, we can achieve near-optimal performance without resorting to complex optimization processes, as a simple beamforming method suffices. However, this approach loses its effectiveness as the number of users increases.</p>
+</li>
+</ul>
+</td></tr></table>
+<ul>
+<li><p>In 6G, we must consider massive MIMO and the presence of a large number of users. Traditional convex optimization techniques used in 4G are too cumbersome for this scenario. The 5G solution for massive MIMO is not ideal due to performance degradation resulting from a high number of users. Therefore, we require a novel approach to MIMO design, and we believe that our spectral approach holds great promise in achieving the demanding performance criteriain 6G MIMO scenarios.</p>
+</li>
+</ul>
+<h3>Related Publications</h3>
+<ol>
+<li><p>J. Park, J. Choi, N. Lee, W. Shin and H. V. Poor, &ldquo;<a href="https://ieeexplore.ieee.org/document/9894281">Rate-Splitting Multiple Access for Downlink MIMO: A Generalized Power Iteration Approach</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 22, no. 3, pp. 1588-1603, March 2023.</p>
+</li>
+<li><p>D. Han, J. Park, S. -H. Park and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/document/9591329">Sparse Joint Transmission for Cloud Radio Access Networks With Limited Fronthaul Capacity</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 21, no. 5, pp. 3395-3408, May 2022.</p>
+</li>
+<li><p>M. Kim, J. Park and J. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/document/9670457">Precoding Design for Multi-User MISO Systems With Delay-Constrained and -Tolerant Users</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 21, no. 7, pp. 5090-5105, July 2022.</p>
+</li>
+<li><p>J. Choi, J. Park and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/document/9722716">Energy Efficiency Maximization Precoding for Quantized Massive MIMO Systems</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 21, no. 9, pp. 6803-6817, Sept. 2022.</p>
+</li>
+<li><p>K. Lee, J. Choi, D. K. Kim and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/9819913">Secure Transmission for Hierarchical Information Accessibility in Downlink MU-MIMO</a>,&rdquo; in <i>IEEE Transactions on Communications</i>, vol. 70, no. 9, pp. 6181-6195, Sept. 2022. </p>
+</li>
+</ol>
+<h2>Satellite Network Analysis</h2>
+<table class="imgtable"><tr><td>
+<img src="css/photos/ppp.png" alt="alt text" width="700px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>Universal coverage is a persistent objective in wireless communications, and the integration of satellite networks with terrestrial cellular networks holds promise in providing seamless and ubiquitous connectivity services. Researchers have recently shifted their focus to satellite networks that utilize low Earth orbit (LEO) or very LEO (VLEO) mega-satellite constellations. </p>
+</li>
+<li><p>Given the exorbitant costs of deploying mega VLEO satellites, it is essential to characterize the coverage and rate performance of VLEO satellite networks. Conventional models for satellite networks involve placing satellites on a grid of multiple circular orbit geometries, such as the Walker constellation, which pose challenges for analytically characterizing coverage and rate performance. Motivated by this, we are interested in analyzing a VLEO satellite network using a tractable model based on stochastic geometry, extending the framework from a 2D plane to a 3D sphere. </p>
+</li>
+</ul>
+<h3>Related Publications</h3>
+<ol>
+<li><p>J. Park, J. Choi, N. Lee, and F. Baccelli, &ldquo;Connectivity from Earth and Universe: Connectivity from Earth and Universe: Modeling and Coverage Analysis for Space-Terrestrial Integrated Networks with Stochastic Geometry,&rdquo; in preparation. </p>
+</li>
+<li><p>J. Park, J. Choi and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/document/9861782">A Tractable Approach to Coverage Analysis in Downlink Satellite Networks</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 22, no. 2, pp. 793-807, Feb. 2023.</p>
+</li>
+<li><p>J. Park and R. W. Heath, &ldquo;<a href="https://ieeexplore.ieee.org/document/8457255">Analysis of Blockage Sensing by Radars in Random Cellular Networks</a>,&rdquo; in <i>IEEE Signal Processing Letters</i>, vol. 25, no. 11, pp. 1620-1624, Nov. 2018. </p>
+</li>
+<li><p>J. Park, N. Lee and R. W. Heath, &ldquo;<a href="https://ieeexplore.ieee.org/document/8326719">Feedback Design for Multi-Antenna K-Tier Heterogeneous Downlink Cellular Networks</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 17, no. 6, pp. 3861-3876, June 2018.</p>
+</li>
+<li><p>J. Park, J. G. Andrews and R. W. Heath, &ldquo;<a href="https://ieeexplore.ieee.org/document/8315133">Inter-Operator Base Station Coordination in Spectrum-Shared Millimeter Wave Cellular Networks</a>,&rdquo; in <i>IEEE Transactions on Cognitive Communications and Networking</i>, vol. 4, no. 3, pp. 513-528, Sept. 2018.</p>
+</li>
+</ol>
+<h2>Machine Learning for Wireless, Wireless for Machine Learning</h2>
+<table class="imgtable"><tr><td>
+<img src="css/photos/ml.png" alt="alt text" width="700px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>Machine learning is undoubtedly a powerful tool for problem-solving, but to apply it effectively, a broader understanding of problem-solving approaches is necessary. In general, problem-solving approaches can be classified into two categories: model-driven and data-driven.</p>
+</li>
+</ul>
+<ul>
+<li><p>The model-driven approach, which was commonly used before the advent of machine learning, involves modeling the environment and optimizing it using mathematical frameworks. Although this approach is mathematically interpretable and aware of system structures, it is vulnerable to model mismatch, which can negatively affect performance.</p>
+</li>
+</ul>
+<ul>
+<li><p>The data-driven approach, on the other hand, relies on machine learning techniques such as deep learning or reinforcement learning, rather than particular models. This approach is robust to model mismatch, but it is ignorant of system structures and requires a lot of training.</p>
+</li>
+</ul>
+<ul>
+<li><p>We can combine them in a hybrid approach, called model-based learning. This approach leverages powerful machine learning techniques while also incorporating key system structures into the learning mechanism. By doing so, we can enjoy the advantages of both approaches and achieve better results in solving complex problems.</p>
+</li>
+</ul>
+<h3>Related Publications</h3>
+<ol>
+<li><p>G. Choi, J. Park, N. Shlezinger, Y. C. Eldar, and N. Lee, &ldquo;Split-KalmanNet: A Robust Model-based Deep Learning Approach for State Estimation,&rdquo; submitted to <i>IEEE Transactions on Vehicular Technology</i> <a href="https://arxiv.org/abs/2210.09636">[Arxiv]</a>.</p>
+</li>
+<li><p>J. Park and S. Baek, &ldquo;<a href="https://ieeexplore.ieee.org/document/9459019">Two-Stage Thompson Sampling for Outer-Loop Link Adaptation</a>,&rdquo; in <i>IEEE Wireless Communications Letters</i>, vol. 10, no. 9, pp. 2004-2008, Sept. 2021.</p>
+</li>
+<li><p>J. Park and S. Baek, &ldquo;<a href="https://ieeexplore.ieee.org/document/9348641">Beam Alignment for Millimeter Wave High Speed Train Communication Systems: A Bayesian Bandit Learning Approach</a>,&rdquo; 2020 <i>IEEE Vehicular Technology Conference (VTC-Fall)</i>. <a href="https://www.dropbox.com/s/59ez9rahd82p5ts/VTC2020.pdf?dl=0">[Slide]</a></p>
+</li>
+</ol>
+</td>
+</tr>
+</table>
+</body>
+</html>
