@@ -11,7 +11,7 @@
 
 == 2023
 
-. S. Park,  J. Choi, J. Park, W. Shin, and B. Clerckx, "Rate-Splitting Precoding for Quantized MU-MIMO: Spectral Efficiency Maximization," accepted to /IEEE Transactions on Wireless Communications/, March 2023.  
+. S. Park,  J. Choi, J. Park, W. Shin, and B. Clerckx, "[https://ieeexplore.ieee.org/document/10071962 Rate-Splitting Precoding for Quantized MU-MIMO: Spectral Efficiency Maximization]," accepted to /IEEE Transactions on Wireless Communications/, March 2023.  
 . E. Choi, M. Oh, J. Choi, J. Park, N. Lee and N. Al-Dhahir, "[https://ieeexplore.ieee.org/document/9973364 Joint Precoding and Artificial Noise Design for MU-MIMO Wiretap Channels]," in /IEEE Transactions on Communications/, vol. 71, no. 3, pp. 1564-1578, March 2023.
 . S. Kim, J. Choi and J. Park, "[https://ieeexplore.ieee.org/document/9961857 Downlink NOMA for Short-Packet Internet-of-Things Communications with Low-Resolution ADCs]," in /IEEE Internet of Things Journal/, vol. 10, no. 7, pp. 6126-6139, 1 April1, 2023. 
 . D. Kim, J. Choi, J. Park and D. K. Kim, "[https://ieeexplore.ieee.org/document/9946306 Max–Min Fairness Beamforming With Rate-Splitting Multiple Access: Optimization Without a Toolbox]," in /IEEE Wireless Communications Letters/, vol. 12, no. 2, pp. 232-236, Feb. 2023.
@@ -47,10 +47,8 @@
 . J. Park and R. W. Heath, "[https://ieeexplore.ieee.org/document/7491366 Low Complexity Antenna Selection for Low Target Rate Users in Dense Cloud Radio Access Networks]," in /IEEE Transactions on Wireless Communications/, vol. 15, no. 9, pp. 6022-6032, Sept. 2016.
 . J. Park, N. Lee, J. G. Andrews and R. W. Heath, "[https://ieeexplore.ieee.org/document/7470522 On the Optimal Feedback Rate in Interference-Limited Multi-Antenna Cellular Systems]," in /IEEE Transactions on Wireless Communications/, vol. 15, no. 8, pp. 5748-5762, Aug. 2016.
 . J. Park and R. W. Heath, "[https://ieeexplore.ieee.org/document/7384442 Multiple-Antenna Transmission With Limited Feedback in Device-to-Device Networks]," in /IEEE Wireless Communications Letters/, vol. 5, no. 2, pp. 200-203, April 2016.
-. M. S. Sim, J. Park, C. -B. Chae and R. W. Heath, "
-[https://ieeexplore.ieee.org/document/7434506 Compressed channel feedback for correlated massive MIMO systems]," in /Journal of Communications and Networks/, vol. 18, no. 1, pp. 95-104, Feb. 2016.
-. J. Park, N. Lee and R. W. Heath, "
-[https://ieeexplore.ieee.org/document/7308016 Cooperative Base Station Coloring for Pair-Wise Multi-Cell Coordination]," in /IEEE Transactions on Communications/, vol. 64, no. 1, pp. 402-415, Jan. 2016.
+. M. S. Sim, J. Park, C. -B. Chae and R. W. Heath, "[https://ieeexplore.ieee.org/document/7434506 Compressed channel feedback for correlated massive MIMO systems]," in /Journal of Communications and Networks/, vol. 18, no. 1, pp. 95-104, Feb. 2016.
+. J. Park, N. Lee and R. W. Heath, "[https://ieeexplore.ieee.org/document/7308016 Cooperative Base Station Coloring for Pair-Wise Multi-Cell Coordination]," in /IEEE Transactions on Communications/, vol. 64, no. 1, pp. 402-415, Jan. 2016.
 
 
 
