@@ -22,114 +22,167 @@
 <div id="toptitle">
 <h1>Research </h1>
 </div>
+<ul>
+<li><p>Some recent research results in the MIMO+X group</p>
+</li>
+</ul>
+<h2>Attention-aided MMSE for OFDM Channel Estimation</h2>
 <table class="imgtable"><tr><td>
-<img src="css/photos/vision.png" alt="alt text" width="800px" />&nbsp;</td>
+<img src="css/photos/a_mmse.png" alt="alt text" width="760px" />&nbsp;</td>
 <td align="left"></td></tr></table>
 <ul>
-<li><p>We are interested in exploring a diverse range of topics related to wireless communications, signal processing, sensing, and machine learning, with a particular focus on both theoretical foundations and practical implementations. </p>
+<li><p>Accurate channel estimation is essential for reliable OFDM communication, yet conventional MMSE methods rely on hard-to-obtain channel statistics, and deep learning models often suffer from high complexity and low interpretability. </p>
 </li>
-</ul>
-<ul>
-<li><p>Our primary objective is to develop effective algorithms and analyze wireless systems to enhance their efficiency. Overall, my research aims to push the boundaries of wireless technology and provide practical solutions that improve the performance and efficiency of wireless communication systems in the real world.</p>
-</li>
-</ul>
-<ul>
-<li><p>Currently, my research interests include investigating new MIMO techniques for 6G and beyond, conducting analysis on dense satellite networks, and exploring the applications of machine learning to wireless communications, as well as the integration of wireless technologies into machine learning. For more details, please see below. </p>
-</li>
-</ul>
-<h2>MIMO + Optimization</h2>
-<table class="imgtable"><tr><td>
-<img src="css/photos/nepv.png" alt="alt text" width="440px" />&nbsp;</td>
-<td align="left"><ul>
-<li><p>In 4G, the design of MIMO relies on convex relaxation techniques, such as WMMSE or SDR. The optimization problem is initially non-convex, yet we iteratively relax the problem to obtain a convexified solution. However, this approach has a significant drawback in that it leads to very high computational complexity, which is a major obstacle for implementing massive MIMO systems.</p>
-</li>
-<li><p>In 5G, massive MIMO has become a popular trend, characterized by the use of numerous antennas and a relatively smaller number of users. In such a scenario, we can achieve near-optimal performance without resorting to complex optimization processes, as a simple beamforming method suffices. However, this approach loses its effectiveness as the number of users increases.</p>
-</li>
-</ul>
-</td></tr></table>
-<ul>
-<li><p>In 6G, we must consider massive MIMO and the presence of a large number of users. Traditional convex optimization techniques used in 4G are too cumbersome for this scenario. The 5G solution for massive MIMO is not ideal due to performance degradation resulting from a high number of users. Therefore, we require a novel approach to MIMO design, and we believe that our spectral approach holds great promise in achieving the demanding performance criteriain 6G MIMO scenarios.</p>
+<li><p>To address this, we propose Attention-aided MMSE (A-MMSE), a model-based learning approach that leverages an Attention Transformer to learn a linear estimation filter. Once trained, the filter enables fast and efficient channel estimation using only linear operations. A two-stage attention encoder explicitly captures frequency and temporal correlations in the channel, leading to significantly improved accuracy and robustness. A rank-adaptive extension allows flexible control over complexity, making it suitable for real-world 5G and upcoming 6G systems.</p>
 </li>
 </ul>
 <h3>Related Publications</h3>
 <div class="infoblock">
 <div class="blockcontent">
 <ol>
-<li><p>N. Kim and J. Park, &ldquo;Splitting Messages in the Dark &ndash; Rate-Splitting Multiple Access for FDD Massive MIMO without CSI Feedback,&rdquo; accepted to <i>IEEE Transactions on Wireless Communications</i>. <a href="https://arxiv.org/abs/2405.00979">[Arxiv]</a></p>
+<li><p>T. Ha, C. Jung, H. Kim, J. Park, and J. Park, &ldquo;Attention-Aided MMSE for OFDM Channel Estimation: Learning Linear Filters with Attention,&rdquo; submitted to <i><tt>IEEE Journal of Selected Areas in Communications</tt></i>. <a href="https://arxiv.org/abs/2506.00452">[Arxiv]</a>. </p>
 </li>
-<li><p>J. Choi, J. Park, N. Lee, and A. Alkhateeb, &ldquo;<a href="https://ieeexplore.ieee.org/document/10679658">Joint and Robust Beamforming Framework for Integrated Sensing and Communication Systems</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 23, no. 11, pp. 17602-17618, Nov. 2024. <a href="https://arxiv.org/abs/2402.09155">[Arxiv]</a> </p>
-</li>
-<li><p>J. Park, J. Choi, N. Lee, W. Shin and H. V. Poor, &ldquo;<a href="https://ieeexplore.ieee.org/document/9894281">Rate-Splitting Multiple Access for Downlink MIMO: A Generalized Power Iteration Approach</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 22, no. 3, pp. 1588-1603, March 2023.</p>
-</li>
-<li><p>D. Han, J. Park, S. -H. Park and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/document/9591329">Sparse Joint Transmission for Cloud Radio Access Networks With Limited Fronthaul Capacity</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 21, no. 5, pp. 3395-3408, May 2022.</p>
-</li>
-<li><p>J. Choi, J. Park and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/document/9722716">Energy Efficiency Maximization Precoding for Quantized Massive MIMO Systems</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 21, no. 9, pp. 6803-6817, Sept. 2022.</p>
-</li>
-<li><p>K. Lee, J. Choi, D. K. Kim and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/9819913">Secure Transmission for Hierarchical Information Accessibility in Downlink MU-MIMO</a>,&rdquo; in <i>IEEE Transactions on Communications</i>, vol. 70, no. 9, pp. 6181-6195, Sept. 2022. </p>
+<li><p>T. Ha and J. Park, &ldquo;Attention-Aided MMSE for OFDM Channel Estimation,&rdquo; accepted to 2025 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
-<h2>MIMO + Satellite Network</h2>
+<h2>Massive MIMO for Multibeam Satellites</h2>
 <table class="imgtable"><tr><td>
-<img src="css/photos/ppp.png" alt="alt text" width="700px" />&nbsp;</td>
+<img src="css/photos/satellite_multibeam.png" alt="alt text" width="700px" />&nbsp;</td>
 <td align="left"></td></tr></table>
 <ul>
-<li><p>Universal coverage is a persistent objective in wireless communications, and the integration of satellite networks with terrestrial cellular networks holds promise in providing seamless and ubiquitous connectivity services. Researchers have recently shifted their focus to satellite networks that utilize low Earth orbit (LEO) or very LEO (VLEO) mega-satellite constellations. </p>
+<li><p>In the MIMO literature, the principle of multi-user diversity has been extensively investigated, revealing several notable findings such as:
+i) random beamforming is asymptotically optimal when combined with user selection
+ii) near-optimal rate performance gains can be achieved through linear precoding methods </p>
 </li>
-<li><p>Given the exorbitant costs of deploying mega VLEO satellites, it is essential to characterize the coverage and rate performance of VLEO satellite networks. Conventional models for satellite networks involve placing satellites on a grid of multiple circular orbit geometries, such as the Walker constellation, which pose challenges for analytically characterizing coverage and rate performance. Motivated by this, we are interested in analyzing a VLEO satellite network using a tractable model based on stochastic geometry, extending the framework from a 2D plane to a 3D sphere. </p>
+</ul>
+<ul>
+<li><p>In our work, we reinterpret multi-user diversity in the context of satellite communications, which are characterized by i) LoS channels and ii) 3D geometry with UPA antennas. Interestingly, satellite systems inherently align with the concept of random beamforming, as they typically employ fixed-beam precoding directed toward specific spatial regions. Our major findings are: i) When user density scales linearly with the number of antennas, the proposed precoding scheme can asymptotically achieve a constant fraction of the optimal rate. ii) To preserve asymptotic optimality as the number of beams increases, the user density must scale with an additional factor that compensates for the growing inter-beam interference.</p>
 </li>
 </ul>
 <h3>Related Publications</h3>
 <div class="infoblock">
 <div class="blockcontent">
 <ol>
-<li><p>S. Kim, J. Choi, W. Shin, N. Lee and J. Park, &ldquo;Multibeam Satellite Communications with Massive MIMO: Asymptotic Performance Analysis and Design Insights,&rdquo; submitted to <i>IEEE Transactions on Wireless Communications</i>. <a href="http://arxiv.org/abs/2407.10461">[Arxiv]</a></p>
+<li><p>S. Kim, J. Choi, W. Shin, N. Lee, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11023115">Multibeam Satellite Communications with Massive MIMO: Asymptotic Performance Analysis and Design Insights</a>,&rdquo; accepted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>, May 2025. <a href="http://arxiv.org/abs/2407.10461">[Arxiv]</a> </p>
 </li>
-<li><p>D. Kim, S. Cho, W. Shin, J. Park, and D. K. Kim, &ldquo;Distributed Precoding for Satellite-Terrestrial Integrated Networks without Sharing CSIT: A Rate-Splitting Approach,&rdquo; submitted to <i>IEEE Transactions on Wireless Communications</i>. <a href="https://arxiv.org/abs/2309.06325">[Arxiv]</a> (Under Revision)</p>
+<li><p>S. Kim and J. Park, &ldquo;Asymptotic Performance Analysis of Multicast Satellte Communications with Massive MIMO,&rdquo; submitted to <i><tt>IEEE Wireless Communications Letters</tt></i>.  </p>
 </li>
-<li><p>J. Park, J. Choi, N. Lee, and F. Baccelli, &ldquo;Unified Modeling and Rate Coverage Analysis for Satellite-Terrestrial Integrated Networks: Coverage Extension or Data Offloading?,&rdquo; submitted to <i>IEEE Journal of Selected Areas in Communications.</i> 
-<a href="https://arxiv.org/abs/2307.03343">[Arxiv]</a></p>
-</li>
-<li><p>J. Park, J. Choi and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/document/9861782">A Tractable Approach to Coverage Analysis in Downlink Satellite Networks</a>,&rdquo; in <i>IEEE Transactions on Wireless Communications</i>, vol. 22, no. 2, pp. 793-807, Feb. 2023.</p>
-</li>
-<li><p>J. Park and R. W. Heath, &ldquo;<a href="https://ieeexplore.ieee.org/document/8457255">Analysis of Blockage Sensing by Radars in Random Cellular Networks</a>,&rdquo; in <i>IEEE Signal Processing Letters</i>, vol. 25, no. 11, pp. 1620-1624, Nov. 2018. </p>
+<li><p>S. Kim and J. Park, &ldquo;Asymptotic Analysis of Rate Scaling Law in
+Multibeam Satellite Communications,&rdquo; submitted to 2025 <i><tt>IEEE Global Communications Conference (GLOBECOM)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
-<h2>MIMO + Machine Learning</h2>
+<h2>Greedy RF Chain Selection for MIMO ISAC</h2>
 <table class="imgtable"><tr><td>
-<img src="css/photos/ml.png" alt="alt text" width="700px" />&nbsp;</td>
+<img src="css/photos/antsel_isac.png" alt="alt text" width="680px" />&nbsp;</td>
 <td align="left"></td></tr></table>
 <ul>
-<li><p>Machine learning is undoubtedly a powerful tool for problem-solving, but to apply it effectively, a broader understanding of problem-solving approaches is necessary. In general, problem-solving approaches can be classified into two categories: model-driven and data-driven.</p>
+<li><p>In 6G systems, the role of MIMO ISAC (Integrated Sensing and Communication) is becoming increasingly prominent. The growth in antenna count necessitates a proportional increase in RF chains, resulting in substantially higher power consumption. To mitigate this, antenna (RF chain) selection has emerged as a key technique for reducing hardware cost and energy consumption in MIMO-ISAC systems. </p>
 </li>
-</ul>
-<ul>
-<li><p>The model-driven approach, which was commonly used before the advent of machine learning, involves modeling the environment and optimizing it using mathematical frameworks. Although this approach is mathematically interpretable and aware of system structures, it is vulnerable to model mismatch, which can negatively affect performance.</p>
-</li>
-</ul>
-<ul>
-<li><p>The data-driven approach, on the other hand, relies on machine learning techniques such as deep learning or reinforcement learning, rather than particular models. This approach is robust to model mismatch, but it is ignorant of system structures and requires a lot of training.</p>
-</li>
-</ul>
-<ul>
-<li><p>We can combine them in a hybrid approach, called model-based learning. This approach leverages powerful machine learning techniques while also incorporating key system structures into the learning mechanism. By doing so, we can enjoy the advantages of both approaches and achieve better results in solving complex problems.</p>
+<li><p>In this work, we present a greedy RF chain selection for MIMO ISAC, in which candidate RF chains are sequentially selected based on their contribution to a unified mutual information (MI) performance metric. </p>
 </li>
 </ul>
 <h3>Related Publications</h3>
 <div class="infoblock">
 <div class="blockcontent">
 <ol>
-<li><p>J. Kim, H. Lee, H. Do, J. Choi, J. Park, W. Shin, Y. C. Eldar, and N. Lee, &ldquo;On the Learning of Digital Self-Interference Cancellation in Full-Duplex Radios,&rdquo; accepted to <i>IEEE Wireless Communications</i>, Feb. 2024. <a href="https://arxiv.org/abs/2308.05966">[Arxiv]</a></p>
+<li><p>S. Shin, S. Jung, J. Choi, and J. Park, &ldquo;Efficient RF Chain Selection for MIMO Integrated Sensing and Communications: A Greedy Approach,&rdquo; submitted to <i><tt>IEEE Transactions on Communications</tt></i>. <a href="https://arxiv.org/abs/2507.09960">[Arxiv]</a></p>
 </li>
-<li><p>G. Choi, J. Park, N. Shlezinger, Y. C. Eldar, and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/abstract/document/10120968">Split-KalmanNet: A Robust Model-based Deep Learning Approach for State Estimation</a>,&rdquo; in <i>IEEE Transactions on Vehicular Technology</i>, vol. 72, no. 9, pp. 12326-12331, Sept. 2023. <a href="https://arxiv.org/abs/2210.09636">[Arxiv]</a>.</p>
-</li>
-<li><p>J. Park and S. Baek, &ldquo;<a href="https://ieeexplore.ieee.org/document/9459019">Two-Stage Thompson Sampling for Outer-Loop Link Adaptation</a>,&rdquo; in <i>IEEE Wireless Communications Letters</i>, vol. 10, no. 9, pp. 2004-2008, Sept. 2021.</p>
-</li>
-<li><p>J. Park and S. Baek, &ldquo;<a href="https://ieeexplore.ieee.org/document/9348641">Beam Alignment for Millimeter Wave High Speed Train Communication Systems: A Bayesian Bandit Learning Approach</a>,&rdquo; 2020 <i>IEEE Vehicular Technology Conference (VTC-Fall)</i>. <a href="https://www.dropbox.com/s/59ez9rahd82p5ts/VTC2020.pdf?dl=0">[Slide]</a></p>
+<li><p>S. Shin and J. Park, &ldquo;Beam Selection in MIMO-ISAC Systems: A Greedy Approach,&rdquo; accepted to 2025 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
+<h2>Shot in the Dark &ndash; MIMO without CSIT</h2>
+<table class="imgtable"><tr><td>
+<img src="css/photos/dark_mimo.png" alt="alt text" width="800px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>In MIMO downlink systems, the acquisition of accurate CSIT has long been a major challenge, especially in scenarios with limited feedback or rapidly changing channels. </p>
+</li>
+<li><p>In our recent work, we propose a novel framework that avoids reliance on explicit CSIT feedback by leveraging partial channel reciprocity between the uplink and downlink. By exploiting shared channel characteristics, the proposed method directly predicts the downlink CSI from the uplink estimated CSI, enabling efficient and robust downlink transmission with significantly reduced overhead associated with CSI.</p>
+</li>
+</ul>
+<h3>Related Publications</h3>
+<div class="infoblock">
+<div class="blockcontent">
+<ol>
+<li><p>N. Kim, I. P. Roberts, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/10851806">Splitting Messages in the Dark &ndash; Rate-Splitting Multiple Access for FDD Massive MIMO without CSI Feedback</a>,&rdquo; in <i><tt>IEEE Transactions on Wireless Communications</tt></i>, vol. 24, no. 4, pp. 3320-3332, April 2025. <a href="https://arxiv.org/abs/2405.00979">[Arxiv]</a> </p>
+</li>
+<li><p>N. Kim, J. Han, J. Choi, A. Alkhateeb, C. -B. Chae, and J. Park, &ldquo;Integrated Sensing and Communications in Downlink FDD Massive MIMO without CSI Feedback,&rdquo; submitted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>. <a href="http://arxiv.org/abs/2412.12590">[Arxiv]</a> (Under Revision)</p>
+</li>
+<li><p>J. Han, N. Kim, and J. Park, &ldquo;Reducing Latency by Eliminating CSIT Feedback: FDD Downlink MIMO Precoding without CSIT for Internet-of-Things Communications,&rdquo; submitted to <i><tt>IEEE Internet of Things Journal</tt></i>. <a href="https://arxiv.org/abs/2501.07094">[Arxiv]</a> (Under Revision)</p>
+</li>
+<li><p>N. Kim and J. Park, &ldquo;Robust Precoding and Rate-Splitting Multiple Access for FDD Massive MIMO Without CSI Feedback,&rdquo; accepted to 2025 <i><tt>IEEE International Symposium on Information Theory (ISIT)</tt></i>.</p>
+</li>
+</ol>
+</div></div>
+<h2>Y-Twin (made with Sionna)</h2>
+<table class="imgtable"><tr><td>
+<img src="css/photos/y_twin.png" alt="alt text" width="800px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>We have developed a custom digital twin, named Y-Twin, which fully reflects the geometry, traffic dynamics, and mobility patterns of the Sinchon area near Yonsei University. Built on top of the Sionna framework, Y-Twin supports fully functioning RAN emulation, enabling end-to-end wireless system evaluation in a realistic urban environment. This platform is expected to serve as a foundation for a wide range of AI-native RAN research in the near future.</p>
+</li>
+<li><p>Dataset, structure, and usage details will be made available soon.</p>
+</li>
+</ul>
+<h3>Related Publications</h3>
+<div class="infoblock">
+<div class="blockcontent">
+<ol>
+<li><p>G. Kim and J. Park, &ldquo;-Twin: A Digital-Twin Framework for Advanced
+Physical-Layer Research,&rdquo; in preparation. </p>
+</li>
+</ol>
+</div></div>
+<h2>State Estimation with 1-bit Observation and Imperfect Model</h2>
+<table class="imgtable"><tr><td>
+<img src="css/photos/bknet.png" alt="alt text" width="840px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>State estimation is an important problem for estimating a system’s hidden state, and Kalman filter is commonly used for this purpose. Most of the existing algorithms assume ideal environment (infinite resolution or full model knowledge, etc), so their performance degrades in real-world environments.</p>
+</li>
+</ul>
+<ul>
+<li><p>This work considers a state estimation problem with 1-bit observation and imperfect models. By using the well-knonw Bussgang theorem to approximate nonlinear inputs linearly, we get a linear filter structure while accounting for ADC quantization distortions. To overcome model uncertainties and nonlinearities, we propose a hybrid DNN approach that integrates Bussgang-based linearization with data-driven learning for robust and efficient inference. </p>
+</li>
+</ul>
+<h3>Related Publications</h3>
+<div class="infoblock">
+<div class="blockcontent">
+<ol>
+<li><p>G. Choi, J. Park, N. Shlezinger, Y. C. Eldar, and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/abstract/document/10120968">Split-KalmanNet: A Robust Model-based Deep Learning Approach for State Estimation</a>,&rdquo; in <i><tt>IEEE Transactions on Vehicular Technology</tt></i>, vol. 72, no. 9, pp. 12326-12331, Sept. 2023. <a href="https://arxiv.org/abs/2210.09636">[Arxiv]</a>.</p>
+</li>
+<li><p>C. Jung, T. Ha, H. Kim, and J. Park, &ldquo;State Estimation with 1-Bit Observations and
+Imperfect Models: Bussgang Meets Kalman in Neural Networks,&rdquo; submitted to <i><tt>IEEE Transactions on Signal Processing</tt></i>. <a href="https://arxiv.org/abs/2507.17284">[Arxiv]</a></p>
+</li>
+<li><p>C. Jung and J. Park, &ldquo;Finding a Path from 1-bit Quantizer: State Estimation with 1-Bit Observations and Imperfect Models,&rdquo; accepted to 2025 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
+</li>
+</ol>
+</div></div>
+<h2>MIMO-ME-MS Channel</h2>
+<table class="imgtable"><tr><td>
+<img src="css/photos/mimomems_fig.png" alt="alt text" width="800px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>In this work, we introduce the MIMO-ME-MS channel, which comprises a multi-antenna transmitter and receiver, along with a multi-antenna eavesdropper and sensing receiver. Within this framework, we investigate the quasi-optimal precoder structure via subspace analysis and propose an iterative precoding design method tailored to this setting.</p>
+</li>
+</ul>
+<h3>Related Publications</h3>
+<div class="infoblock">
+<div class="blockcontent">
+<ol>
+<li><p>S. Jung, N. Lee, and J. Park, &ldquo;The MIMO-ME-MS Channel: Analysis and
+Algorithm for Secure MIMO Integrated Sensing and Communication,&rdquo; submitted to <i><tt>IEEE Journal of Selected Areas in Communications</tt></i>.</p>
+</li>
+</ol>
+</div></div>
+<h2>Research Support</h2>
+<p>Our group has been funded by a diverse range of government and industry sponsors. Our group gratefully acknowledges ongoing and past support from NRF, IITP, KRIT, Samsung, Intellian Technologies.</p>
+<table class="imgtable"><tr><td>
+<img src="css/photos/funding.png" alt="alt text" width="500px" />&nbsp;</td>
+<td align="left"></td></tr></table>
 </td>
 </tr>
 </table>
