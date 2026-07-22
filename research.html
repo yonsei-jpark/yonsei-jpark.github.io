@@ -40,9 +40,11 @@
 <div class="infoblock">
 <div class="blockcontent">
 <ol>
-<li><p>T. Ha, C. Jung, H. Kim, J. Park, and J. Park, &ldquo;Attention-Aided MMSE for OFDM Channel Estimation: Learning Linear Filters with Attention,&rdquo; submitted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>. <a href="https://arxiv.org/abs/2506.00452">[Arxiv]</a>. </p>
+<li><p>T. Ha, C. Jung, H. Kim, J. Park, and J. Park, &ldquo;Learning MMSE Filters for OFDM Channel Estimation: Attention Transformer Gains at Linear Inference,&rdquo; submitted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>. <a href="https://arxiv.org/abs/2506.00452">[Arxiv]</a> <a href="https://github.com/TaeJun1999/Attention-aided-MMSE">[Github]</a> (Under Revision)</p>
 </li>
-<li><p>T. Ha and J. Park, &ldquo;Attention-Aided MMSE for OFDM Channel Estimation,&rdquo; accepted to 2025 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
+<li><p>T. Ha, H. Kim, and J. Park, &ldquo;Attention-Aided MMSE with Ridge Denoiser: How to Train under Noisy Channel Samples,&rdquo; submitted to <i><tt>IEEE Transactions on Vehicular Technology</tt></i>. (Under Revision)</p>
+</li>
+<li><p>T. Ha and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11443463">Attention-Aided MMSE for OFDM Channel Estimation</a>,&rdquo; 2025 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
@@ -51,25 +53,28 @@
 <img src="css/photos/satellite_multibeam.png" alt="alt text" width="700px" />&nbsp;</td>
 <td align="left"></td></tr></table>
 <ul>
-<li><p>In the MIMO literature, the principle of multi-user diversity has been extensively investigated, revealing several notable findings such as:
-i) random beamforming is asymptotically optimal when combined with user selection
-ii) near-optimal rate performance gains can be achieved through linear precoding methods </p>
+<li><p>Massive MIMO is a key enabler for next-generation satellite networks, offering high spectral efficiency and spatial multiplexing gains over wide coverage areas. Yet satellite channels differ fundamentally from terrestrial ones: they are dominated by line-of-sight (LoS) propagation, shaped by 3D geometry with uniform planar arrays (UPAs), and subject to large Doppler shifts arising from fast satellite motion. These features call for a rethinking of precoding, user scheduling, and beamforming principles that were originally developed for rich-scattering terrestrial systems.</p>
 </li>
 </ul>
 <ul>
-<li><p>In our work, we reinterpret multi-user diversity in the context of satellite communications, which are characterized by i) LoS channels and ii) 3D geometry with UPA antennas. Interestingly, satellite systems inherently align with the concept of random beamforming, as they typically employ fixed-beam precoding directed toward specific spatial regions. Our major findings are: i) When user density scales linearly with the number of antennas, the proposed precoding scheme can asymptotically achieve a constant fraction of the optimal rate. ii) To preserve asymptotic optimality as the number of beams increases, the user density must scale with an additional factor that compensates for the growing inter-beam interference.</p>
+<li><p>Our group studies massive MIMO for satellite communications from both an analytical and an algorithmic perspective. On the analysis side, we characterize the asymptotic rate behavior of multibeam and multicast systems, revisiting multi-user diversity under LoS channels and 3D array geometry, and deriving how user density must scale with the number of antennas and beams to preserve asymptotic optimality. On the design side, we develop space-time beamforming methods that exploit the Doppler dimension as an additional signaling resource, enabling extremely narrow beams and robust transmission under spatial user crowding.</p>
 </li>
 </ul>
 <h3>Related Publications</h3>
 <div class="infoblock">
 <div class="blockcontent">
 <ol>
-<li><p>S. Kim, J. Choi, W. Shin, N. Lee, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11023115">Multibeam Satellite Communications with Massive MIMO: Asymptotic Performance Analysis and Design Insights</a>,&rdquo; accepted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>, May 2025. <a href="http://arxiv.org/abs/2407.10461">[Arxiv]</a> </p>
+<li><p>S. Kim, J. Choi, W. Shin, N. Lee, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11023115">Multibeam Satellite Communications with Massive MIMO: Asymptotic Performance Analysis and Design Insights</a>,&rdquo; in <i><tt>IEEE Transactions on Wireless Communications</tt></i>, vol. 24, no. 11, pp. 9449-9464, Nov. 2025. <a href="http://arxiv.org/abs/2407.10461">[Arxiv]</a> </p>
 </li>
-<li><p>S. Kim and J. Park, &ldquo;Asymptotic Performance Analysis of Multicast Satellte Communications with Massive MIMO,&rdquo; accepted to <i><tt>IEEE Wireless Communications Letters</tt></i>, Sept. 2025. </p>
+<li><p>S. Kim and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11177234">Asymptotic Scaling Law Analysis of Multicast Satellite Communications With Massive MIMO</a>,&rdquo; in <i><tt>IEEE Wireless Communications Letters</tt></i>, vol. 14, no. 12, pp. 4092-4096, Dec. 2025. <a href="https://arxiv.org/abs/2509.16921">[Arxiv]</a></p>
 </li>
-<li><p>S. Kim and J. Park, &ldquo;Asymptotic Analysis of Rate Scaling Law in
-Multibeam Satellite Communications,&rdquo; submitted to 2025 <i><tt>IEEE Global Communications Conference (GLOBECOM)</tt></i>.</p>
+<li><p>J. Yim, J. Choi, J. Park, I. P. Roberts, and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/document/11400683">Space-Time Beamforming for LEO Satellite Communications: Enabling Extremely Narrow Beams</a>,&rdquo; in <i><tt>IEEE Transactions on Wireless Communications</tt></i>, vol. 25, pp. 12725-12739, 2026. <a href="https://arxiv.org/abs/2505.07547">[Arxiv]</a></p>
+</li>
+<li><p>H. Yun, S. Kim, and J. Park, &ldquo;Space-Time Adaptive Beamforming for Satellite Communications: Harnessing Doppler as New Signaling Dimensions,&rdquo; submitted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>. <a href="https://arxiv.org/abs/2603.29359">[Arxiv]</a> (Under Revision)</p>
+</li>
+<li><p>J. Lim, J. Park, and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/abstract/document/10942823">Space-Time Beamforming for Satellite Communications</a>,&rdquo; 2024 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
+</li>
+<li><p>H. Yun and J. Park, &ldquo;Space-Time Adaptive Beamforming for Satellite Communications under Spatial User Crowding,&rdquo; accepted to 2026 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
@@ -109,11 +114,13 @@ Multibeam Satellite Communications,&rdquo; submitted to 2025 <i><tt>IEEE Global 
 <ol>
 <li><p>N. Kim, I. P. Roberts, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/10851806">Splitting Messages in the Dark &ndash; Rate-Splitting Multiple Access for FDD Massive MIMO without CSI Feedback</a>,&rdquo; in <i><tt>IEEE Transactions on Wireless Communications</tt></i>, vol. 24, no. 4, pp. 3320-3332, April 2025. <a href="https://arxiv.org/abs/2405.00979">[Arxiv]</a> </p>
 </li>
-<li><p>N. Kim, J. Han, J. Choi, A. Alkhateeb, C. -B. Chae, and J. Park, &ldquo;Integrated Sensing and Communications in Downlink FDD Massive MIMO without CSI Feedback,&rdquo; accepted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>, Aug. 2025. <a href="http://arxiv.org/abs/2412.12590">[Arxiv]</a> (Under Revision)</p>
+<li><p>N. Kim, J. Han, J. Choi, A. Alkhateeb, C. -B. Chae, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11142922">Integrated Sensing and Communications in Downlink FDD MIMO without CSI Feedback</a>,&rdquo; in <i><tt>IEEE Transactions on Wireless Communications</tt></i>, vol. 25, pp. 2984-3000, 2026. <a href="http://arxiv.org/abs/2412.12590">[Arxiv]</a></p>
 </li>
-<li><p>J. Han, N. Kim, and J. Park, &ldquo;Reducing Latency by Eliminating CSIT Feedback: FDD Downlink MIMO Precoding without CSIT for Internet-of-Things Communications,&rdquo; submitted to <i><tt>IEEE Internet of Things Journal</tt></i>. <a href="https://arxiv.org/abs/2501.07094">[Arxiv]</a> (Under Revision)</p>
+<li><p>J. Han, N. Kim, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11314548">Reducing Latency by Eliminating CSIT Feedback: FDD Downlink MIMO Transmission for Internet-of-Things Communications</a>,&rdquo; in <i><tt>IEEE Internet of Things Journal</tt></i>, vol. 13, no. 6, pp. 11301-11315, 15 March, 2026. <a href="https://arxiv.org/abs/2501.07094">[Arxiv]</a></p>
 </li>
-<li><p>N. Kim and J. Park, &ldquo;Robust Precoding and Rate-Splitting Multiple Access for FDD Massive MIMO Without CSI Feedback,&rdquo; accepted to 2025 <i><tt>IEEE International Symposium on Information Theory (ISIT)</tt></i>.</p>
+<li><p>J. Han and J. Park, &ldquo;Feedback-Free Precoding for Low-Latency FDD Downlink MIMO for IoT Communications,&rdquo; accepted to 2026 <i><tt>IEEE International Conference on Communications (ICC)</tt></i>.</p>
+</li>
+<li><p>N. Kim and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11195261">Robust Precoding and Rate-Splitting Multiple Access for FDD Massive MIMO Without CSI Feedback</a>,&rdquo; 2025 <i><tt>IEEE International Symposium on Information Theory (ISIT)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
@@ -154,10 +161,9 @@ Physical-Layer Research,&rdquo; in preparation. </p>
 <ol>
 <li><p>G. Choi, J. Park, N. Shlezinger, Y. C. Eldar, and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/abstract/document/10120968">Split-KalmanNet: A Robust Model-based Deep Learning Approach for State Estimation</a>,&rdquo; in <i><tt>IEEE Transactions on Vehicular Technology</tt></i>, vol. 72, no. 9, pp. 12326-12331, Sept. 2023. <a href="https://arxiv.org/abs/2210.09636">[Arxiv]</a>.</p>
 </li>
-<li><p>C. Jung, T. Ha, H. Kim, and J. Park, &ldquo;State Estimation with 1-Bit Observations and
-Imperfect Models: Bussgang Meets Kalman in Neural Networks,&rdquo; submitted to <i><tt>IEEE Transactions on Vehicular Technology</tt></i>. <a href="https://arxiv.org/abs/2507.17284">[Arxiv]</a></p>
+<li><p>C. Jung, T. Ha, H. Kim, and J. Park, &ldquo;Energy-Efficient State Estimation with 1-Bit Sensing: A Bussgang-Kalman Framework for Internet-of-Things,&rdquo; submitted to <i><tt>IEEE Internet of Things Journal</tt></i>. <a href="https://arxiv.org/abs/2507.17284">[Arxiv]</a> <a href="https://github.com/JeongCH-000/bussgang-kalman-filtering">[Github]</a> (Under Revision)</p>
 </li>
-<li><p>C. Jung and J. Park, &ldquo;Finding a Path from 1-bit Quantizer: State Estimation with 1-Bit Observations and Imperfect Models,&rdquo; accepted to 2025 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
+<li><p>C. Jung and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11443895">Finding a Path from 1-bit Quantizer: State Estimation with 1-Bit Observations and Imperfect Models</a>,&rdquo; 2025 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
@@ -173,8 +179,9 @@ Imperfect Models: Bussgang Meets Kalman in Neural Networks,&rdquo; submitted to 
 <div class="infoblock">
 <div class="blockcontent">
 <ol>
-<li><p>S. Jung, N. Lee, and J. Park, &ldquo;The MIMO-ME-MS Channel: Analysis and
-Algorithm for Secure MIMO Integrated Sensing and Communication,&rdquo; accepted to <i><tt>IEEE Journal of Selected Areas in Communications</tt></i>, Feb. 2026.</p>
+<li><p>S. Jung, N. Lee, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11421948">The MIMO-ME-MS Channel: Analysis and Algorithm for Secure MIMO Integrated Sensing and Communications</a>,&rdquo; in <i><tt>IEEE Journal of Selected Areas in Communications</tt></i>, vol. 44, pp. 4067-4082, 2026. <a href="https://arxiv.org/abs/2512.19013">[Arxiv]</a></p>
+</li>
+<li><p>S. Jung and J. Park, &ldquo;The MIMO-ME-MS Channel: Useful-Subspace Characterization and Practical Precoder Design for Secure MIMO ISAC,&rdquo; accepted to 2026 <i><tt>IEEE International Symposium on Information Theory (ISIT)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
