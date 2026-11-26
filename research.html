@@ -26,6 +26,56 @@
 <li><p>Some recent research results in the MIMO+X group</p>
 </li>
 </ul>
+<h2>Spatial MIMO Channel Rendering with 3D Gaussian Splatting</h2>
+<table class="imgtable"><tr><td>
+<img src="css/photos/rendering2.png" alt="Beam-pair power maps at sampled and unseen user locations" width="800px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>Which transmit and receive beams will work well for a user at a location where the channel has never been measured? We learn how beam-pair power varies across a site from channel measurements at a sparse set of locations. Given a new user location, we predict a map whose entries give the long-term received power for each transmit and receive beam pair.</p>
+</li>
+</ul>
+<table class="imgtable"><tr><td>
+<img src="css/photos/rendering1.png" alt="Paired 3D Gaussians projected onto the transmit and receive beam grids" width="800px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>Our MIMO Gaussian splatting method (MIMO-GS) represents the propagation environment with pairs of 3D Gaussians. For each pair, we project one Gaussian onto the base station's transmit beam grid and the other onto the user's receive beam grid. Adding their weighted contributions across all pairs produces the power map. A base station can use these maps to select users and beams jointly while accounting for interference. In our multiuser evaluation, this scheduling approach achieved 98% of the genie-aided benchmark's net sum rate without sounding the candidate users.</p>
+</li>
+</ul>
+<h3>Related Publications</h3>
+<div class="infoblock">
+<div class="blockcontent">
+<ol>
+<li><p>J. Han, G. Kim, C. Wen, A. Alkhateeb, J. Zhang, and J. Park, &ldquo;<a href="https://arxiv.org/abs/2610.36880">Spatial MIMO Channel Rendering: A 3D Gaussian Splatting Approach</a>,&rdquo; submitted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>.</p>
+</li>
+</ol>
+</div></div>
+<h2>Reverse Mercury/Waterfilling for Fronthaul Compression</h2>
+<ul>
+<li><p>In an uplink cloud radio access network, each radio unit compresses its received signal before sending it to a central processor. With a fixed fronthaul budget, how many bits should each signal coefficient receive? Once a receiver can reliably distinguish all four symbols of a 4-QAM constellation, finer quantization adds little information. The same bits can be more valuable on a channel carrying a larger constellation.</p>
+</li>
+</ul>
+<table class="imgtable"><tr><td>
+<img src="css/photos/rmwf1.png" alt="Fronthaul bit allocations for a 4-QAM channel at 20 dB and a 256-QAM channel at 10 dB" width="590px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>Our reverse mercury/waterfilling (RMWF) rule accounts for this saturation. In the figure, a thick mercury layer marks the 4-QAM channel where extra precision yields little gain. RMWF shifts bits to the 256-QAM channel, even though its signal is weaker. With a shared 12-bit budget, the two channels achieve a sum generalized mutual information (GMI) of about 5.13 bits per symbol, compared with 4.00 for classical reverse waterfilling.</p>
+</li>
+</ul>
+<table class="imgtable"><tr><td>
+<img src="css/photos/rmwf2.png" alt="Power and bit allocation rules for Gaussian and finite-alphabet inputs" width="800px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>The table connects fronthaul compression to transmit power allocation. Mercury/waterfilling accounts for the modulation alphabet when allocating transmit power. RMWF applies the same principle to quantization bits, using the gain in GMI after linear MMSE detection to guide their allocation.</p>
+</li>
+</ul>
+<h3>Related Publications</h3>
+<div class="infoblock">
+<div class="blockcontent">
+<ol>
+<li><p>S. Shin, J. Lee, S.-H. Park, and J. Park, &ldquo;<a href="https://arxiv.org/abs/2609.21265">Fronthaul Compression for Uplink Cloud-RAN with Finite-Alphabet Inputs: A Reverse Mercury/Waterfilling Approach</a>,&rdquo; submitted to <i><tt>IEEE Transactions on Communications</tt></i>.</p>
+</li>
+</ol>
+</div></div>
 <h2>Attention-aided MMSE for OFDM Channel Estimation</h2>
 <table class="imgtable"><tr><td>
 <img src="css/photos/a_mmse.png" alt="alt text" width="760px" />&nbsp;</td>
@@ -40,9 +90,9 @@
 <div class="infoblock">
 <div class="blockcontent">
 <ol>
-<li><p>T. Ha, C. Jung, H. Kim, J. Park, and J. Park, &ldquo;Learning MMSE Filters for OFDM Channel Estimation: Attention Transformer Gains at Linear Inference,&rdquo; submitted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>. <a href="https://arxiv.org/abs/2506.00452">[Arxiv]</a> <a href="https://github.com/TaeJun1999/Attention-aided-MMSE">[Github]</a> (Under Revision)</p>
+<li><p>T. Ha, C. Jung, H. Kim, J. Park, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11812749">Learning MMSE Filters for OFDM Channel Estimation: Attention Transformer Gains at Linear Inference</a>,&rdquo; accepted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>. <a href="https://arxiv.org/abs/2506.00452">[Arxiv]</a> <a href="https://github.com/TaeJun1999/Attention-aided-MMSE">[Github]</a> Nov. 2026.</p>
 </li>
-<li><p>T. Ha, H. Kim, and J. Park, &ldquo;Attention-Aided MMSE with Ridge Denoiser: How to Train under Noisy Channel Samples,&rdquo; submitted to <i><tt>IEEE Transactions on Vehicular Technology</tt></i>. (Under Revision)</p>
+<li><p>T. Ha, H. Kim, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11727563">Attention-Aided MMSE with Ridge Denoiser: How to Train under Noisy Channel Samples</a>,&rdquo; accepted to <i><tt>IEEE Transactions on Vehicular Technology</tt></i>. <a href="https://arxiv.org/abs/2608.15945">[Arxiv]</a> <a href="https://github.com/TaeJun1999/Attention-aided-MMSE">[Github]</a> Sept. 2026.</p>
 </li>
 <li><p>T. Ha and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11443463">Attention-Aided MMSE for OFDM Channel Estimation</a>,&rdquo; 2025 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
 </li>
@@ -70,31 +120,39 @@
 </li>
 <li><p>J. Yim, J. Choi, J. Park, I. P. Roberts, and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/document/11400683">Space-Time Beamforming for LEO Satellite Communications: Enabling Extremely Narrow Beams</a>,&rdquo; in <i><tt>IEEE Transactions on Wireless Communications</tt></i>, vol. 25, pp. 12725-12739, 2026. <a href="https://arxiv.org/abs/2505.07547">[Arxiv]</a></p>
 </li>
-<li><p>H. Yun, S. Kim, and J. Park, &ldquo;Space-Time Adaptive Beamforming for Satellite Communications: Harnessing Doppler as New Signaling Dimensions,&rdquo; submitted to <i><tt>IEEE Transactions on Wireless Communications</tt></i>. <a href="https://arxiv.org/abs/2603.29359">[Arxiv]</a> (Under Revision)</p>
-</li>
 <li><p>J. Lim, J. Park, and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/abstract/document/10942823">Space-Time Beamforming for Satellite Communications</a>,&rdquo; 2024 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
-</li>
-<li><p>H. Yun and J. Park, &ldquo;Space-Time Adaptive Beamforming for Satellite Communications under Spatial User Crowding,&rdquo; accepted to 2026 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
-<h2>Greedy RF Chain Selection for MIMO ISAC</h2>
+<h2>Space-Time Adaptive Beamforming (STAB) for LEO Satellites</h2>
 <table class="imgtable"><tr><td>
-<img src="css/photos/antsel_isac.png" alt="alt text" width="680px" />&nbsp;</td>
+<img src="css/photos/stab1.png" alt="Two users seen from a terrestrial array and from a satellite" width="320px" />&nbsp;</td>
 <td align="left"></td></tr></table>
 <ul>
-<li><p>In 6G systems, the role of MIMO ISAC (Integrated Sensing and Communication) is becoming increasingly prominent. The growth in antenna count necessitates a proportional increase in RF chains, resulting in substantially higher power consumption. To mitigate this, antenna (RF chain) selection has emerged as a key technique for reducing hardware cost and energy consumption in MIMO-ISAC systems. </p>
+<li><p>Two users a few streets apart can lie in nearly the same direction when viewed from a low Earth orbit (LEO) satellite. Their line-of-sight channels then look similar across the antenna array, making it difficult to transmit separate data streams to them on the same time and frequency resources.</p>
 </li>
-<li><p>In this work, we present a greedy RF chain selection for MIMO ISAC, in which candidate RF chains are sequentially selected based on their contribution to a unified mutual information (MI) performance metric. </p>
+</ul>
+<table class="imgtable"><tr><td>
+<img src="css/photos/stab3.png" alt="Users per angular bin in sparse, critical, and dense deployments" width="570px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>We model this crowding by dividing the angular field into bins set by the array's resolution and counting the users in the busiest bin. This lets us identify a user-density threshold beyond which the sum rate of spatial zero-forcing precoding vanishes as the system scales.</p>
+</li>
+</ul>
+<table class="imgtable"><tr><td>
+<img src="css/photos/stab2.png" alt="Channel vectors from successive time slots stacked into a space-time channel matrix" width="570px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<ul>
+<li><p>Space-time adaptive beamforming (STAB) uses the fact that users at similar angles can have different residual Doppler shifts. Their channel phases then evolve at different rates. By stacking the antenna channels across successive time slots, STAB can separate users that the array alone struggles to resolve. Our space-Doppler scheduler uses both angle and Doppler when selecting users to serve together.</p>
 </li>
 </ul>
 <h3>Related Publications</h3>
 <div class="infoblock">
 <div class="blockcontent">
 <ol>
-<li><p>S. Shin, S. Jung, J. Choi, and J. Park, &ldquo;Efficient RF Chain Selection for MIMO Integrated Sensing and Communications: A Greedy Approach,&rdquo; submitted to <i><tt>IEEE Transactions on Communications</tt></i>. <a href="https://arxiv.org/abs/2507.09960">[Arxiv]</a></p>
+<li><p>H. Yun, S. Kim, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11719740">Space-Time Adaptive Beamforming for Satellite Communications: Harnessing Doppler as New Signaling Dimensions</a>,&rdquo; in <i><tt>IEEE Transactions on Wireless Communications</tt></i>, vol. 25, pp. 24956-24971, 2026. <a href="https://arxiv.org/abs/2603.29359">[Arxiv]</a></p>
 </li>
-<li><p>S. Shin and J. Park, &ldquo;Beam Selection in MIMO-ISAC Systems: A Greedy Approach,&rdquo; accepted to 2025 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
+<li><p>H. Yun and J. Park, &ldquo;Space-Time Adaptive Beamforming for Satellite Communications under Spatial User Crowding,&rdquo; accepted to 2026 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
@@ -118,7 +176,7 @@
 </li>
 <li><p>J. Han, N. Kim, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11314548">Reducing Latency by Eliminating CSIT Feedback: FDD Downlink MIMO Transmission for Internet-of-Things Communications</a>,&rdquo; in <i><tt>IEEE Internet of Things Journal</tt></i>, vol. 13, no. 6, pp. 11301-11315, 15 March, 2026. <a href="https://arxiv.org/abs/2501.07094">[Arxiv]</a></p>
 </li>
-<li><p>J. Han and J. Park, &ldquo;Feedback-Free Precoding for Low-Latency FDD Downlink MIMO for IoT Communications,&rdquo; accepted to 2026 <i><tt>IEEE International Conference on Communications (ICC)</tt></i>.</p>
+<li><p>J. Han and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11587054">Feedback-Free Precoding for Low-Latency FDD Downlink MIMO for IoT Communications</a>,&rdquo; 2026 <i><tt>IEEE International Conference on Communications (ICC)</tt></i>.</p>
 </li>
 <li><p>N. Kim and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11195261">Robust Precoding and Rate-Splitting Multiple Access for FDD Massive MIMO Without CSI Feedback</a>,&rdquo; 2025 <i><tt>IEEE International Symposium on Information Theory (ISIT)</tt></i>.</p>
 </li>
@@ -161,7 +219,7 @@ Physical-Layer Research,&rdquo; in preparation. </p>
 <ol>
 <li><p>G. Choi, J. Park, N. Shlezinger, Y. C. Eldar, and N. Lee, &ldquo;<a href="https://ieeexplore.ieee.org/abstract/document/10120968">Split-KalmanNet: A Robust Model-based Deep Learning Approach for State Estimation</a>,&rdquo; in <i><tt>IEEE Transactions on Vehicular Technology</tt></i>, vol. 72, no. 9, pp. 12326-12331, Sept. 2023. <a href="https://arxiv.org/abs/2210.09636">[Arxiv]</a>.</p>
 </li>
-<li><p>C. Jung, T. Ha, H. Kim, and J. Park, &ldquo;Energy-Efficient State Estimation with 1-Bit Sensing: A Bussgang-Kalman Framework for Internet-of-Things,&rdquo; submitted to <i><tt>IEEE Internet of Things Journal</tt></i>. <a href="https://arxiv.org/abs/2507.17284">[Arxiv]</a> <a href="https://github.com/JeongCH-000/bussgang-kalman-filtering">[Github]</a> (Under Revision)</p>
+<li><p>C. Jung, T. Ha, H. Kim, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11661306">Energy-Efficient State Estimation with 1-Bit Sensing: A Bussgang-Kalman Framework for Internet-of-Things</a>,&rdquo; in <i><tt>IEEE Internet of Things Journal</tt></i>, vol. 13, no. 21, pp. 50357-50373, 1 Nov., 2026. <a href="https://arxiv.org/abs/2507.17284">[Arxiv]</a> <a href="https://github.com/JeongCH-000/bussgang-kalman-filtering">[Github]</a></p>
 </li>
 <li><p>C. Jung and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11443895">Finding a Path from 1-bit Quantizer: State Estimation with 1-Bit Observations and Imperfect Models</a>,&rdquo; 2025 <i><tt>Asilomar Conference on Signals, Systems, and Computers (Asilomar)</tt></i>.</p>
 </li>
@@ -181,7 +239,7 @@ Physical-Layer Research,&rdquo; in preparation. </p>
 <ol>
 <li><p>S. Jung, N. Lee, and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11421948">The MIMO-ME-MS Channel: Analysis and Algorithm for Secure MIMO Integrated Sensing and Communications</a>,&rdquo; in <i><tt>IEEE Journal of Selected Areas in Communications</tt></i>, vol. 44, pp. 4067-4082, 2026. <a href="https://arxiv.org/abs/2512.19013">[Arxiv]</a></p>
 </li>
-<li><p>S. Jung and J. Park, &ldquo;The MIMO-ME-MS Channel: Useful-Subspace Characterization and Practical Precoder Design for Secure MIMO ISAC,&rdquo; accepted to 2026 <i><tt>IEEE International Symposium on Information Theory (ISIT)</tt></i>.</p>
+<li><p>S. Jung and J. Park, &ldquo;<a href="https://ieeexplore.ieee.org/document/11654007">The MIMO-ME-MS Channel: Useful-Subspace Characterization and Practical Precoder Design for Secure MIMO ISAC</a>,&rdquo; 2026 <i><tt>IEEE International Symposium on Information Theory (ISIT)</tt></i>.</p>
 </li>
 </ol>
 </div></div>
